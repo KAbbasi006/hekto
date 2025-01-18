@@ -96,7 +96,7 @@ const Navbar = () => {
                 <SheetTrigger className="md:hidden">
                     <MenuIcon />
                 </SheetTrigger>
-                <SheetContent className="flex flex-col mx-auto">
+                <SheetContent className="flex flex-col mx-auto text-white bg-black">
                     <SheetHeader>
                         <SheetTitle className="text-[30px] text-white font-semibold mb-5">Hekto</SheetTitle>
                     </SheetHeader>

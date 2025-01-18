@@ -138,7 +138,7 @@ export default function ShopPage() {
       <div className="flex md:w-[1170px] my-8 mx-auto flex-col md:flex-row gap-8">
         {/* Sidebar */}
         <div className="w-full md:w-64 space-y-6">
-          <div>
+          <div className="mx-5">
             <h3 className="font-bold text-lg text-[#151875] underline mb-4">Product Brand</h3>
             <div className="space-y-2 text-gray-400">
               {["Coaster Furniture", "Fusion Dot High Fashion", "Unique Furnitture Resto", "Dream Furnitture Flipping", "Young Repurposed", "Green DIY furniture"].map((brand) => (
@@ -162,7 +162,7 @@ export default function ShopPage() {
 
           <Separator />
 
-          <div>
+          <div className="mx-5">
             <h3 className="font-bold text-lg text-[#151875] underline mb-4">Discount Offer</h3>
             <div className="space-y-2 text-gray-400">
               {["20% Cashback", "5% Cashback Offer", "25% Discount Offer"].map((discount) => (
@@ -186,7 +186,7 @@ export default function ShopPage() {
 
           <Separator />
 
-          <div>
+          <div className="mx-5">
             <h3 className="font-bold text-lg text-[#151875] underline mb-4">Rating Item</h3>
             <RadioGroup value={selectedRating || ""} onValueChange={setSelectedRating}>
               {[5, 4, 3].map((rating) => (
@@ -205,7 +205,7 @@ export default function ShopPage() {
 
           <Separator />
 
-          <div>
+          <div className="mx-5">
             <h3 className="font-bold text-lg text-[#151875] underline mb-4">Categories</h3>
             <div className="space-y-2 text-gray-400">
               {["Prestashop", "Magento", "Bigcommerce", "osCommerce", "3dcart", "Bags", "Accessories", "Jewellery", "Watches"].map((category) => (
@@ -229,7 +229,7 @@ export default function ShopPage() {
 
           <Separator />
 
-          <div>
+          <div className="mx-5">
             <h3 className="font-bold text-lg text-[#151875] underline mb-4">Price Filter</h3>
             <Slider
               value={priceRange}
@@ -245,7 +245,7 @@ export default function ShopPage() {
 
           <Separator />
 
-          <div>
+          <div className="mx-5">
             <h3 className="font-bold text-lg text-[#151875] underline mb-4">Filter By Color</h3>
             <div className="flex flex-wrap gap-2">
               {["#FF8CB8", "#FFC93E", "#7C4AFF", "#41D37E", "#FB7DA9", "#6DCEF5"].map((color) => (

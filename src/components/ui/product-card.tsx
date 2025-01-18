@@ -42,19 +42,19 @@ export function ProductCard({
         <div className="absolute -left-12 bottom-3 flex flex-col gap-2 transition-all duration-300 group-hover:left-3">
           <Button
            
-            className="h-8 w-8 rounded-full  bg-white shadow-md hover:bg-[#FB2E86] hover:text-white"
+            className="h-8 w-8 rounded-full  bg-gray-400 shadow-md hover:bg-[#FB2E86] hover:text-white"
           >
             <ShoppingCart className="h-4 w-4" />
           </Button>
           <Button
            
-            className="h-8 w-8 rounded-full bg-white shadow-md hover:bg-[#FB2E86] hover:text-white"
+            className="h-8 w-8 rounded-full bg-gray-400 shadow-md hover:bg-[#FB2E86] hover:text-white"
           >
             <Heart className="h-4 w-4" />
           </Button>
           <Button
            
-            className="h-8 w-8 rounded-full bg-white shadow-md hover:bg-[#FB2E86] hover:text-white"
+            className="h-8 w-8 rounded-full bg-gray-400 shadow-md hover:bg-[#FB2E86] hover:text-white"
             asChild
           >
             <Link href={`/product/${id}`}>
