@@ -35,19 +35,3 @@ export function NewsletterSection() {
     </section>
   )
 }
-
-{/* <div className='pt-20'>
-<Image
-    src="/images/top/banner.png"
-    alt="footer"
-    width="990"
-    height="990"
-    className='w-full h-[400px] object-fit'
-/>
-<div className='flex justify-center items-center flex-col relative bottom-[250px] md:w-[574px] h-auto m-auto'>
-    <h4 className='text-[#151875] text-center text-[20px] md:text-[35px] font-[700]'>Get Leatest Update By Subscribe 0ur Newslater</h4>
-    <button className="w-[140px] md:w-[160px] h-[40px] md:h-[50px] bg-[#FB2E86] text-white rounded-md mt-6">
-        Shop Now
-    </button>
-</div>
-</div> */}
